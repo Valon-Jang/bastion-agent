@@ -9,6 +9,9 @@ source. Third-party dependencies, generated schemas, and separately downloaded
 or bundled runtimes retain their own licenses and notices. Review
 `DEPENDENCY_PLAN.md` and the dependency lock files before redistribution.
 
-The current company-direct mode runs local commands with the permissions of the
-signed-in Windows user. It is not an operating-system sandbox or a security
-product, and it must not be used to bypass organizational security policy.
+The latest active runtime restricts local file work to the active installation
+directory and project directories explicitly selected by the user. These roots
+are resolved dynamically and may be nested or located on different drives.
+Hosted model communication and public web search remain available, so this
+filesystem boundary is not a complete DLP product. Bastion Agent must not be
+used to bypass organizational security policy.
