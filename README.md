@@ -1,5 +1,9 @@
 # Bastion Agent
 
+<p align="center">
+  <img src="assets/bastion-agent-logo.png" alt="Bastion Agent logo" width="316">
+</p>
+
 > **보안 경계를 우회하지 않고, 그 안에서 일하는 AI 작업대.**
 
 ## 왜 만들었나
