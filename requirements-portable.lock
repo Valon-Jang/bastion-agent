@@ -1,0 +1,5 @@
+# Exact Python distributions allowed in the portable runtime.
+# tree-sha256 authenticates the ordered installed file tree copied by the builder.
+cryptography==50.0.1 tree-sha256=0765503759c91c0739456a2300ef74330cc7bce954f0e6a61e5a094bf0981cbc
+cffi==2.1.0 tree-sha256=34acdfd9657af801f3a740dafab7033fab7379695467c3efc07d4bd1e8c9d81d
+pycparser==3.0 tree-sha256=9210c562fa8f0cb958cc726dab290ef3ec8be77331b0d96d4094536b36870c2c

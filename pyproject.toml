@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "human-codex"
+version = "0.1.0rc6"
+description = "Human Codex local desktop orchestration core"
+requires-python = ">=3.12,<3.14"
+dependencies = ["cryptography==50.0.1"]
+
+[project.scripts]
+human-codex-m0 = "human_codex.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["source/core"]
+
+[tool.pytest.ini_options]
+pythonpath = ["source/core"]
+testpaths = ["tests"]
